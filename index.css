@@ -29,7 +29,7 @@ main div.textContent {
 }
 
 h1 {
-    font-size: 25px;
+    font-size: 30px;
     line-height: 1.4;
 }
 
@@ -47,20 +47,23 @@ p {
 
 main div.info {
     padding: 12%;
+    width: 70%;
 }
 
 div.stats {
     display: flex;
     justify-content: space-between;
-    width: 95%;
+    width: 90%;
     margin-top: 3rem;
 }
 
 div.stats > section > h2 {
+    font-size: 20px;
     margin-bottom: 0.5rem;
 }
 
 div.stats > section > span {
+    font-size: 15px;
     color: hsla(0, 0%, 100%, 0.6);
     text-transform: uppercase;
 }
@@ -77,7 +80,7 @@ main div.imgHeader::after {
     width: 100%;
     left: 0;
     top: 0;
-    background-color: hsla(277, 64%, 61%, 0.603);
+    background-color: hsla(277, 63%, 30%, 0.712);
 }
 
 main div.imgHeader > img {
@@ -92,7 +95,6 @@ main div.imgHeader > img {
     }
 
     main div.textContent { 
-        padding: 10px;
         grid-template-columns: 1fr;
     }
 
@@ -100,8 +102,8 @@ main div.imgHeader > img {
        order: -1;
     }
 
-    div.info {
-        padding: 12% 8%;
+    main div.info {
+        width: auto;
     }
 
     div.stats {
