@@ -22,8 +22,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://matebeing.github.io/stats-preview-card-component-main/)
+- Solution URL: [Solution](https://www.frontendmentor.io/solutions/stas-preview-component-grid-flex-Hya7cwoQ9)
+- Live Site URL: [Check it out](https://matebeing.github.io/stats-preview-card-component-main/)
 
 ## My process
 
