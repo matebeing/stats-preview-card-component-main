@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    font-family: 'Inter', sans-serif;
+    background-color: hsl(233, 47%, 7%);
+    color: #fff;
+}
+
+main div.textContent {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 1020px;
+    border-radius: 0.8rem;
+    background-color: hsl(244, 38%, 16%);
+    overflow: hidden;
+    margin: 2rem;
+}
+
+h1 {
+    font-size: 25px;
+    line-height: 1.4;
+}
+
+h1 > span {
+    color: hsl(277, 64%, 61%);
+}
+
+p {
+    margin-top: 2rem;
+    color: hsla(0, 0%, 100%, 0.6);
+    line-height: 1.8;
+    font-size: 0.9em;
+}
+
+
+main div.info {
+    padding: 12%;
+}
+
+div.stats {
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    margin-top: 3rem;
+}
+
+div.stats > section > h2 {
+    margin-bottom: 0.5rem;
+}
+
+div.stats > section > span {
+    color: hsla(0, 0%, 100%, 0.6);
+    text-transform: uppercase;
+}
+
+main div.imgHeader {
+    position: relative;
+    width: 100%;
+}
+
+main div.imgHeader::after {
+    position: absolute;
+    content: '';
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    background-color: hsla(277, 64%, 61%, 0.603);
+}
+
+main div.imgHeader > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+@media only screen and (max-width:475px) {
+    body {
+        text-align: center;
+    }
+
+    main div.textContent { 
+        padding: 10px;
+        grid-template-columns: 1fr;
+    }
+
+    main div.imgHeader {
+       order: -1;
+    }
+
+    div.info {
+        padding: 12% 8%;
+    }
+
+    div.stats {
+        flex-direction: column;
+        padding-top: 30px;
+    }
+
+    div.stats > section{
+        margin-top: 20px;
+    }
+}
